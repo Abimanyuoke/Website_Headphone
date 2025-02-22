@@ -15,6 +15,7 @@ export default {
         varela: ["Varela Round", "sans-serif"],
       },
       container: {
+        center : true,
         padding: {
           sm: "2rem",
           lg: "5rem",

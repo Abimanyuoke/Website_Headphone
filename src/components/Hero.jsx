@@ -39,9 +39,9 @@ const headphonedata = [
   {
     id: 1,
     image: Headphone1,
-    title: "Headphone Wireless",
+    title: "Headphones Wireless",
     subtitle:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime placeat architecto autem nostrum et iusto ab nam at itaque.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima ad ut id eos iusto minima ad ut id eos ad ut id eos",
     price: "$100",
     modal: "Modal Brown",
     bgColor: "#8b5958",
@@ -49,9 +49,9 @@ const headphonedata = [
   {
     id: 2,
     image: Headphone2,
-    title: "Headphone Wireless 2",
+    title: "Headphones Wireless 2",
     subtitle:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime placeat architecto autem nostrum et iusto ab nam at itaque.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima ad ut id eos iusto minima ad ut id eos ad ut id eos",
     price: "$100",
     modal: "Lime Green",
     bgColor: "#638153",
@@ -59,9 +59,9 @@ const headphonedata = [
   {
     id: 3,
     image: Headphone3,
-    title: "Headphone Wireless 3",
+    title: "Headphones Wireless 3",
     subtitle:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maxime placeat architecto autem nostrum et iusto ab nam at itaque.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima ad ut id eos iusto minima ad ut id eos ad ut id eos",
     price: "$100",
     modal: "Ocean Blue",
     bgColor: "#5d818c",
@@ -96,11 +96,10 @@ const Hero = () => {
                   {activeData.title}
                 </motion.h1>
               </UpdateFollower>
-
             </AnimatePresence>
+            
             <AnimatePresence mode='wait'>
               {/* Headphone title */}
-              <h1 className="text-3xl lg:text-6xl font-bold">{activeData.title}</h1>
               <motion.p
                 key={activeData.id}
                 variants={fadeUp(0.3)}
@@ -120,7 +119,7 @@ const Hero = () => {
                 scale: 6,
                 backgroundElement:
                   <div>
-                    <img src={activeData} />
+                    <img src={activeData.image} />
                   </div>
               }}>
                 <motion.button

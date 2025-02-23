@@ -7,6 +7,8 @@ import Hero from './components/Hero'
 import Services  from './components/Services'
 import { Banner } from './components/Banner'
 import { BannerText } from './components/BannerText'
+import { Blogs } from './components/Blog'
+import { Footer } from './components/Footer'
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
           <Services />
           <Banner/>
           <BannerText/>
+          <Blogs/>
+          <Footer/>
         </UpdateFollower>
       </main>
   )

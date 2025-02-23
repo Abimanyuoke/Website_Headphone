@@ -1,8 +1,8 @@
 import React from "react";
-import Blog1 from "../../src/assets/image/blog1.png"
-import Blog2 from "../../src/assets/image/blog2.png"
-import Blog3 from "../../src/assets/image/blog3.png"
-import Blog4 from "../../src/assets/image/blog4.png"
+import Blog1 from "../../src/assets/image/blog1.jpg"
+import Blog2 from "../../src/assets/image/blog2.jpg"
+import Blog3 from "../../src/assets/image/blog3.jpg"
+import Blog4 from "../../src/assets/image/blog4.jpg"
 import { UpdateFollower } from "react-mouse-follower";
 import { motion } from "framer-motion";
 
@@ -40,7 +40,7 @@ const BlogData = [
 
 export const Blogs = () => {
     return (
-        <section>
+        <section className="py-14">
             <div className="container">
                 <h1 className="text-3xl font-bold text-center font-poppins pb-8">
                     Blogs

@@ -39,7 +39,7 @@ export const Banner = () => {
                                 mixBlendMode: "difference"
                             }}>
                             <motion.button
-                                variants={fadeUp(1.3)}
+                                variants={fadeUp(1.2)}
                                 initial="hidden"
                                 whileInView="show"
                                 className="border-2 border-[#e33343] text-[#e33343] px-6 py-2 rounded-md hover:bg-[#e33343] hover:text-white transition delay-100 ease-in-out">Shop Now</motion.button>
